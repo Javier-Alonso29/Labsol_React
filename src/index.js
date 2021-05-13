@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Counter from './componets/Counter';
+import SimpleForm from './componets/SimpleForm';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/* <Counter /> */}
+    <SimpleForm />
   </React.StrictMode>,
   document.getElementById('root')
 );
